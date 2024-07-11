@@ -8,9 +8,9 @@ import (
 	"os"
 )
 
-const SETTINGS_AUTO_LIKE = "auto_like_photos"
-const SETTINGS_DOWNLOADS_DIR = "download_dir"
-const SETTINGS_STORE_BY_USERNAME = "store_by_username"
+const SETTINGS_AUTO_LIKE = "auto-like"
+const SETTINGS_DOWNLOADS_DIR = "downloads-dir"
+const SETTINGS_STORE_BY_USERNAME = "username-storage"
 
 var KeyMapping = map[string]string{
 	"downloads-dir":    SETTINGS_DOWNLOADS_DIR,

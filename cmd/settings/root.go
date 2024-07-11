@@ -16,7 +16,7 @@ var Cmd = &cobra.Command{
 	Example: heredoc.Doc(`
 		$ splash settings # This will prompt a survey
 		$ splash settings set downloads-dir ~/Downloads
-		$ splash settings get autoLike
+		$ splash settings get auto-like
 	`),
 	Run: func(cmd *cobra.Command, args []string) {
 		settings, err := AllSettingsSurvey()
