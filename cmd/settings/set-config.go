@@ -10,6 +10,7 @@ import (
 
 var setConfigCmd = &cobra.Command{
 	Use:  "set",
+	Example: "\t $ splash settings set downloads-dir ~/Downloads",
 	Args: cobra.ExactArgs(2),
 	Run: func(cmd *cobra.Command, args []string) {
 		key := args[0]
